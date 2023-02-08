@@ -21,9 +21,15 @@
     min-width:min-content;
 }
 .content{
-    background-color: red;
     display: flex;
-    flex-direction: column;
+    flex: 1 1 0;
+    justify-content: space-between;
+}
+.sidebar{
+    background-color: rgb(235, 205, 160);
+    display: flex;
+    flex-shrink: 0;
+    align-content: flex-end;
 }
 .clock{
     display: flex;
@@ -46,11 +52,7 @@
     display: flex;
     justify-content: center;
 }
-.sidebar{
-    /*background-color: rgb(235, 205, 160);*/
-    display: flex;
-    flex-shrink: 0;
-}
+
 .footer{
     background-color: aliceblue;
 }
