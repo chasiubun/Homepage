@@ -1,12 +1,17 @@
+head{
+    padding: 0px;
+}
 .header{
-    background-color: aliceblue;
+    background-color: #1f2937;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-weight:bolder;
 }
 .title{
-    font-size: 30px;
+    font-size: 48px;
     padding: 20px;
+    color: white;
 }
 .header-button-left{
     display: flex;
@@ -52,7 +57,10 @@
     display: flex;
     justify-content: center;
 }
-
+.quotes{
+    background-color: aliceblue;
+}
 .footer{
     background-color: aliceblue;
+    justify-content: space-evenly;
 }
