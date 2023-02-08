@@ -6,14 +6,51 @@
 }
 .title{
     font-size: 30px;
+    padding: 20px;
 }
 .header-button-left{
     display: flex;
     gap: 20px;
     padding: 5px;
+    min-width:min-content;
 }
 .header-button-right{
     display: flex;
     gap: 20px;
     padding: 5px;
+    min-width:min-content;
+}
+.content{
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+}
+.clock{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 30px;
+}
+.date{
+
+}
+.time{
+
+}
+.calendar{
+    display: flex;
+    justify-content: center;
+}
+.weather{
+    display: flex;
+    justify-content: center;
+}
+.sidebar{
+    /*background-color: rgb(235, 205, 160);*/
+    display: flex;
+    flex-shrink: 0;
+}
+.footer{
+    background-color: aliceblue;
 }
