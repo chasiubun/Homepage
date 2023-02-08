@@ -1,3 +1,19 @@
 .header{
-    background-color: darkgoldenrod;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title{
+    font-size: 30px;
+}
+.header-button-left{
+    display: flex;
+    gap: 20px;
+    padding: 5px;
+}
+.header-button-right{
+    display: flex;
+    gap: 20px;
+    padding: 5px;
 }
